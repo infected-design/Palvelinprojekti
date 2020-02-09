@@ -1,0 +1,27 @@
+/* This file is for customizing the main bootstrap css-file and because I don't want to 'stab' the original code. 
+ *
+ */ 
+
+/* Working with the carousel images to make them fit nice and eaze.
+ *
+ * Source:  https://www.freecodecamp.org/forum/t/my-carousel-images-are-too-big/178311/4
+ * 			https://css-tricks.com/fun-viewport-units/
+ *
+ * Need to re-think those widths and heights on smaller devices, like smartphones.
+ * On a side note, it works fine on computer screen with high (HD) resolution.
+ *
+ * About the carousel: 	https://getbootstrap.com/docs/4.3/components/carousel/
+ *						https://www.quackit.com/bootstrap/bootstrap_4/tutorial/bootstrap_templates.cfm
+ * 						https://www.w3schools.com/bootstrap4/bootstrap_templates.asp
+ *
+ */
+
+.carousel-image {
+	width: 100%;
+	height: 100vh;
+}
+
+.spacer {
+	width: 100%;
+	height: 25vh;
+}
